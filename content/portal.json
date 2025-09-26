@@ -5,7 +5,7 @@
     "cta": {
       "text": "Access Member Portal",
       "href": "https://portal.mpbhealth.com",
-      "variant": "primary",
+      "variant": "default",
       "size": "lg"
     }
   },

@@ -44,7 +44,7 @@
     "cta": {
       "text": "Get My Personalized Quote",
       "href": "#quote-form",
-      "variant": "primary",
+      "variant": "default",
       "size": "lg"
     }
   }

@@ -7,7 +7,7 @@
       {
         "text": "Get Group Quote",
         "href": "/quote?type=group",
-        "variant": "primary",
+        "variant": "default",
         "size": "lg"
       },
       {
@@ -107,7 +107,7 @@
     "cta": {
       "text": "Schedule Consultation",
       "href": "/contact?type=employer",
-      "variant": "primary",
+      "variant": "default",
       "size": "lg"
     }
   }

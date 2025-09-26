@@ -7,7 +7,7 @@
       {
         "text": "Get Free Quote",
         "href": "/quote",
-        "variant": "primary",
+        "variant": "default",
         "size": "lg"
       },
       {
@@ -161,8 +161,8 @@
     "cta": {
       "text": "Download App",
       "href": "/member-portal",
-      "variant": "primary",
-      "size": "md"
+      "variant": "default",
+        "size": "default"
     },
     "image": "/images/mobile-app-preview.png"
   },
@@ -170,7 +170,7 @@
     "primary": {
       "text": "Get Your Free Quote",
       "href": "/quote",
-      "variant": "primary",
+      "variant": "default",
       "size": "lg"
     },
     "secondary": {

@@ -129,7 +129,7 @@ export function Hero({
                     asChild
                     className={cn(
                       'min-w-[140px]',
-                      cta.variant === 'primary' && 'shadow-lg hover:shadow-xl transition-shadow'
+                      cta.variant === 'default' && 'shadow-lg hover:shadow-xl transition-shadow'
                     )}
                   >
                     <Link 

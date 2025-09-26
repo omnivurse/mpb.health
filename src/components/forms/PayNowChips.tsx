@@ -33,7 +33,7 @@ export function PayNowChips({
     }
   }
 
-  const getButtonSize = () => {
+  const getButtonSize = (): 'sm' | 'default' | 'lg' | 'icon' => {
     switch (variant) {
       case 'compact':
         return 'sm'
@@ -42,7 +42,7 @@ export function PayNowChips({
     }
   }
 
-  const getButtonVariant = (amount: number) => {
+  const getButtonVariant = (amount: number): 'default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link' => {
     return selectedAmount === amount ? 'default' : 'outline'
   }
 

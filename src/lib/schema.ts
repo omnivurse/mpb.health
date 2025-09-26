@@ -4,8 +4,8 @@ import { z } from 'zod'
 export const CTASchema = z.object({
   text: z.string(),
   href: z.string(),
-  variant: z.enum(['primary', 'secondary', 'outline']).default('primary'),
-  size: z.enum(['sm', 'md', 'lg']).default('md')
+  variant: z.enum(['default', 'secondary', 'outline', 'destructive', 'ghost', 'link']).default('default'),
+  size: z.enum(['sm', 'default', 'lg', 'icon']).default('default')
 })
 
 export const TestimonialSchema = z.object({

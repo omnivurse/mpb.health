@@ -7,7 +7,7 @@
       {
         "text": "Calculate My Rate",
         "href": "/quote",
-        "variant": "primary",
+        "variant": "default",
         "size": "lg"
       },
       {
@@ -126,20 +126,20 @@
     {
       "text": "Get My Free Quote",
       "href": "/quote",
-      "variant": "primary",
+      "variant": "default",
       "size": "lg"
     },
     {
       "text": "Compare All Plans",
       "href": "/plans",
       "variant": "outline",
-      "size": "md"
+      "size": "default"
     },
     {
       "text": "Speak with Advisor",
       "href": "/contact",
       "variant": "secondary",
-      "size": "md"
+      "size": "default"
     }
   ],
   "testimonials": [

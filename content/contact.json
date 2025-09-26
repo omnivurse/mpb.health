@@ -20,7 +20,7 @@
     "cta": {
       "text": "Send Message",
       "href": "#contact-form",
-      "variant": "primary",
+      "variant": "default",
       "size": "lg"
     }
   },
