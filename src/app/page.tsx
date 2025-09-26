@@ -4,7 +4,7 @@ import { ValueProps } from '@/components/sections/ValueProps'
 import { HowItWorks } from '@/components/sections/HowItWorks'
 import { FeaturedTestimonial } from '@/components/sections/Testimonial'
 import { FAQ } from '@/components/sections/FAQ'
-import { RateCalculator } from '@/components/forms/RateCalculator'
+import RateCalculator from '@/components/forms/RateCalculator2'
 import { getHomeContent } from '@/lib/content'
 
 export const metadata: Metadata = {
@@ -97,11 +97,9 @@ export default function Home() {
               Get instant rates for all health sharing plans. No personal information required.
             </p>
           </div>
-          <RateCalculator
-            showAllPlans={true}
-            showQuickAmounts={true}
-            className="max-w-5xl"
-          />
+          <div className="max-w-2xl mx-auto">
+            <RateCalculator />
+          </div>
         </div>
       </section>
 

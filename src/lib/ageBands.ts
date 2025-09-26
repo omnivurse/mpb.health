@@ -8,17 +8,45 @@ export interface AgeBand {
 
 export const AGE_BANDS: AgeBand[] = [
   { min: 0, max: 17, key: 'CHILD', label: 'Child (0-17)' },
-  { min: 18, max: 24, key: '18-24', label: '18-24' },
-  { min: 25, max: 29, key: '25-29', label: '25-29' },
-  { min: 30, max: 34, key: '30-34', label: '30-34' },
-  { min: 35, max: 39, key: '35-39', label: '35-39' },
-  { min: 40, max: 44, key: '40-44', label: '40-44' },
-  { min: 45, max: 49, key: '45-49', label: '45-49' },
-  { min: 50, max: 54, key: '50-54', label: '50-54' },
-  { min: 55, max: 59, key: '55-59', label: '55-59' },
+  { min: 18, max: 29, key: '18-29', label: '18-29' },
+  { min: 30, max: 39, key: '30-39', label: '30-39' },
+  { min: 40, max: 49, key: '40-49', label: '40-49' },
+  { min: 50, max: 59, key: '50-59', label: '50-59' },
   { min: 60, max: 64, key: '60-64', label: '60-64' },
   { min: 65, max: 120, key: '65+', label: '65+' }
 ]
+
+function parseBand(band: string): { min: number; max: number } | null {
+  if (band === "ALL") return { min: 0, max: 200 };
+  const m = band.match(/^(\d+)\s*-\s*(\d+)$/);
+  if (!m) {
+    // Handle 65+ format
+    const plusMatch = band.match(/^(\d+)\+$/);
+    if (plusMatch) {
+      return { min: Number(plusMatch[1]), max: 200 };
+    }
+    return null;
+  }
+  return { min: Number(m[1]), max: Number(m[2]) };
+}
+
+export function toBand(age: number, availableBands: string[]): string {
+  // Prefer exact covering band
+  for (const b of availableBands) {
+    const range = parseBand(b);
+    if (range && age >= range.min && age <= range.max) return b;
+  }
+  // Fallback to ALL if present
+  if (availableBands.includes("ALL")) return "ALL";
+
+  // Fallback heuristic: pick the smallest band with min >= age, else largest band
+  const numeric = availableBands
+    .map(b => ({ b, r: parseBand(b) }))
+    .filter(x => x.r)
+    .sort((a,b) => (a.r!.min - b.r!.min));
+  const next = numeric.find(x => age <= x.r!.max);
+  return next?.b ?? (numeric.at(-1)?.b ?? "ALL");
+}
 
 export function getAgeBandKey(age: number): string {
   const band = AGE_BANDS.find(band => age >= band.min && age <= band.max)

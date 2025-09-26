@@ -1,5 +1,20 @@
 import { z } from 'zod'
 
+// Calculator Schema
+export const calculatorSchema = z.object({
+  product: z.enum(["Essentials","Direct","Care Plus","Secure HSA","Premium Care","Premium HSA"]),
+  state: z.string().length(2).optional(),
+  age: z.number().int().min(0).max(120),
+  tobacco: z.enum(["Yes","No"]),
+  currentMonthly: z
+    .union([z.string(), z.number()])
+    .optional()
+    .transform(v => (v == null || v === "" ? undefined : Number(String(v).replace(/[^0-9.]/g,""))))
+    .refine(v => v == null || (isFinite(v) && v >= 0 && v <= 100000), "Enter a valid monthly amount (0–100,000).")
+});
+
+export type CalculatorForm = z.infer<typeof calculatorSchema>;
+
 // Common schemas
 export const CTASchema = z.object({
   text: z.string(),
