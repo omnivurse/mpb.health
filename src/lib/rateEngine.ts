@@ -12,7 +12,7 @@ interface RateTable {
 }
 
 // Import the rate table configuration
-import rateTableConfig from '@/content/rate_tables.config.json'
+import rateTableConfig from './rateTablesConfig.json'
 
 const rateTable = rateTableConfig as RateTable
 
