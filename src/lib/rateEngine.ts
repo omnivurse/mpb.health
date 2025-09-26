@@ -70,7 +70,7 @@ export function resolvePrice(input: RateCalculationInput): RateCalculationResult
   // Convert inputs to keys
   const ageBandKey = getAgeBandKey(age)
   const tobaccoKey = tobacco ? 'YES' : 'NO'
-  let stateKey = state
+  let stateKey: string = state
 
   // Validate product exists
   if (!rateTable.plans[product]) {
