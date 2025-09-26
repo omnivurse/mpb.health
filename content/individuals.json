@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "headline": "Health Sharing for Individuals & Families",
+    "subheadline": "Flexible, network-agnostic healthcare access",
+    "description": "Designed for individuals and families who want quality healthcare without the high costs and restrictions of traditional insurance. Get the care you need from the providers you trust.",
+    "ctas": [
+      {
+        "text": "Calculate My Rate",
+        "href": "/quote",
+        "variant": "primary",
+        "size": "lg"
+      },
+      {
+        "text": "View Family Plans",
+        "href": "/plans",
+        "variant": "outline",
+        "size": "lg"
+      }
+    ]
+  },
+  "positioning": {
+    "title": "Healthcare That Works for Real Life",
+    "description": "Whether you're self-employed, between jobs, or simply want an alternative to expensive insurance, our health sharing plans provide comprehensive coverage with the flexibility you need.",
+    "painPoints": [
+      "High monthly insurance premiums eating into your budget",
+      "Limited provider networks restricting your healthcare choices", 
+      "Complex insurance processes and endless paperwork",
+      "Surprise medical bills and hidden costs",
+      "Long wait times for specialist appointments"
+    ],
+    "solutions": [
+      "Significantly lower monthly sharing amounts",
+      "Complete freedom to choose any healthcare provider",
+      "Simple, transparent process for sharing medical expenses",
+      "Direct payment to providers with no surprise bills",
+      "Quick access to virtual care and specialists"
+    ]
+  },
+  "services": {
+    "title": "Comprehensive Services for Every Need",
+    "description": "From preventive care to emergency services, our health sharing plans cover the full spectrum of your healthcare needs.",
+    "grid": [
+      {
+        "icon": "activity",
+        "title": "Wellness & Preventive Care",
+        "description": "Annual check-ups, screenings, and immunizations to keep you healthy.",
+        "features": [
+          "Annual wellness exams",
+          "Preventive screenings and lab work",
+          "Immunizations and vaccines",
+          "Women's health services",
+          "Health coaching and education"
+        ]
+      },
+      {
+        "icon": "urgent",
+        "title": "Urgent & Emergency Care",
+        "description": "Immediate care when you need it most, from urgent care to emergency room visits.",
+        "features": [
+          "Emergency room visits",
+          "Urgent care center visits", 
+          "Ambulance services",
+          "Emergency surgery",
+          "Hospital stays"
+        ]
+      },
+      {
+        "icon": "brain",
+        "title": "Mental Health Services",
+        "description": "Comprehensive mental health support including counseling and therapy.",
+        "features": [
+          "Individual therapy sessions",
+          "Family and couples counseling",
+          "Group therapy programs",
+          "Psychiatric evaluations",
+          "Mental health medication management"
+        ]
+      },
+      {
+        "icon": "video",
+        "title": "Virtual Care Platform",
+        "description": "24/7 access to licensed physicians through our telemedicine platform.",
+        "features": [
+          "24/7 virtual consultations",
+          "Prescription management",
+          "Follow-up appointments",
+          "Specialist referrals",
+          "Health monitoring and coaching"
+        ]
+      }
+    ]
+  },
+  "benefits": [
+    {
+      "icon": "dollar-sign",
+      "title": "Save Money Every Month",
+      "description": "Reduce your healthcare costs by 40-60% compared to traditional insurance premiums while maintaining quality coverage."
+    },
+    {
+      "icon": "users",
+      "title": "Choose Your Providers",
+      "description": "No network restrictions mean you can see any doctor, specialist, or hospital you prefer anywhere in the country."
+    },
+    {
+      "icon": "clock",
+      "title": "Fast Access to Care",
+      "description": "Skip long wait times with priority scheduling and 24/7 virtual care access for immediate medical needs."
+    },
+    {
+      "icon": "shield",
+      "title": "Transparent Pricing",
+      "description": "Know exactly what you'll pay with clear, upfront pricing and no surprise bills or hidden fees."
+    },
+    {
+      "icon": "heart",
+      "title": "Community Support",
+      "description": "Join a caring community committed to supporting each other's health and wellness journey."
+    },
+    {
+      "icon": "smartphone",
+      "title": "Digital-First Experience",
+      "description": "Manage everything through our intuitive mobile app - from submitting expenses to accessing virtual care."
+    }
+  ],
+  "ctas": [
+    {
+      "text": "Get My Free Quote",
+      "href": "/quote",
+      "variant": "primary",
+      "size": "lg"
+    },
+    {
+      "text": "Compare All Plans",
+      "href": "/plans",
+      "variant": "outline",
+      "size": "md"
+    },
+    {
+      "text": "Speak with Advisor",
+      "href": "/contact",
+      "variant": "secondary",
+      "size": "md"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "mike-testimonial",
+      "name": "Mike Rodriguez",
+      "location": "Denver, CO",
+      "content": "As a freelance graphic designer, I couldn't afford $800/month for insurance. MPB Health gives me better coverage for $180/month. It's been a game-changer for my business and family.",
+      "rating": 5,
+      "plan": "Direct"
+    },
+    {
+      "id": "jennifer-testimonial", 
+      "name": "Jennifer Walsh",
+      "location": "Portland, OR",
+      "content": "After my husband's company stopped offering insurance, we thought we'd have to choose between healthcare and our mortgage. MPB Health let us keep both. The virtual care is amazing too.",
+      "rating": 5,
+      "plan": "Care Plus"
+    },
+    {
+      "id": "david-testimonial",
+      "name": "David Kim",
+      "location": "Phoenix, AZ", 
+      "content": "I was skeptical about health sharing at first, but after 2 years with MPB Health, I can't imagine going back to traditional insurance. The savings and simplicity are incredible.",
+      "rating": 5,
+      "plan": "Premium Care"
+    }
+  ]
+}

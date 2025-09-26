@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "headline": "About MPB Health",
+    "description": "We're on a mission to make quality healthcare accessible and affordable for everyone through the power of community-driven medical cost sharing."
+  },
+  "mission": {
+    "title": "Our Mission & Values",
+    "description": "MPB Health facilitates access to qualified health share programs, connecting individuals and families with community-based healthcare solutions that prioritize transparency, affordability, and member care.",
+    "values": [
+      {
+        "title": "Transparency",
+        "description": "We believe in clear, honest communication about costs, coverage, and processes. No hidden fees, no confusing terms - just straightforward healthcare sharing.",
+        "icon": "eye"
+      },
+      {
+        "title": "Community",
+        "description": "Healthcare is better when we support each other. Our community-driven approach creates genuine connections and shared responsibility for health and wellness.",
+        "icon": "users"
+      },
+      {
+        "title": "Accessibility",
+        "description": "Quality healthcare should be within reach for everyone. We work to remove barriers and make healthcare sharing accessible to all who need it.",
+        "icon": "unlock"
+      },
+      {
+        "title": "Innovation",
+        "description": "We leverage technology and innovative approaches to make healthcare sharing more efficient, user-friendly, and effective for our members.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Integrity",
+        "description": "We operate with the highest ethical standards, always putting our members' interests first and maintaining the trust placed in us.",
+        "icon": "shield"
+      }
+    ]
+  },
+  "differentiation": {
+    "title": "What Makes Us Different",
+    "description": "While traditional insurance companies focus on profit margins and claim denials, we focus on member care and community support. Here's what sets MPB Health apart:",
+    "points": [
+      {
+        "title": "Member-First Approach",
+        "description": "Every decision we make is guided by what's best for our members. We're not trying to maximize profits by denying claims - we're here to facilitate sharing when members need it most."
+      },
+      {
+        "title": "Technology-Enabled Experience",
+        "description": "Our modern platform and mobile app make managing your health sharing simple and convenient. Submit expenses, access virtual care, and track sharing status all in one place."
+      },
+      {
+        "title": "Comprehensive Virtual Care",
+        "description": "Unlike traditional health sharing organizations, we include 24/7 virtual care access as a standard benefit, providing immediate access to licensed physicians."
+      },
+      {
+        "title": "Flexible Network Freedom",
+        "description": "No provider networks, no referral requirements, no restrictions. See any doctor, visit any hospital, and get care where and when you need it."
+      },
+      {
+        "title": "Educational Resources",
+        "description": "We provide extensive resources to help members make informed healthcare decisions, understand their sharing options, and maintain their health and wellness."
+      }
+    ]
+  },
+  "transparency": {
+    "title": "Our Commitment to Transparency",
+    "description": "Transparency isn't just a value - it's how we operate every day. We believe members deserve to understand exactly how their sharing works, what they can expect, and how we facilitate the community.",
+    "commitments": [
+      "Clear, upfront pricing with no hidden fees or surprise costs",
+      "Detailed explanation of sharing guidelines and processes", 
+      "Regular communication about sharing status and community updates",
+      "Open access to member testimonials and sharing statistics",
+      "Transparent reporting on how sharing amounts are used",
+      "Clear disclosure that we facilitate access to health share programs and are not ourselves an HCSM"
+    ]
+  },
+  "community": {
+    "title": "The Power of Community",
+    "description": "At the heart of health sharing is the simple but powerful idea that we're stronger together. When we pool our resources and support each other, we can make healthcare affordable and accessible for everyone.",
+    "model": "MPB Health facilitates access to qualified Health Care Sharing Ministries (HCSMs) that operate under the principles of mutual aid and community support. Members voluntarily contribute monthly amounts that are used to share eligible medical expenses within the community. This model has successfully provided healthcare cost assistance to thousands of families across the country, creating a sustainable alternative to traditional insurance that puts people before profits."
+  }
+}

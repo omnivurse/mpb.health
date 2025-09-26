@@ -1,0 +1,50 @@
+[build]
+  publish = "out"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    cache-control = "max-age=0,no-cache,no-store,must-revalidate"
+
+# Cache static assets for 1 year
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    cache-control = "public,max-age=31536000,immutable"
+
+# Cache images for 1 month
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    cache-control = "public,max-age=2592000"

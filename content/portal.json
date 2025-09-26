@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "headline": "Member Portal & Mobile App",
+    "description": "Manage your health sharing account, access virtual care, and track your medical expenses all in one place. Available 24/7 on web and mobile.",
+    "cta": {
+      "text": "Access Member Portal",
+      "href": "https://portal.mpbhealth.com",
+      "variant": "primary",
+      "size": "lg"
+    }
+  },
+  "appServices": {
+    "title": "Everything You Need in One App",
+    "description": "Our member portal and mobile app put comprehensive healthcare management at your fingertips. Submit expenses, access care, and stay connected with your health sharing community.",
+    "features": [
+      {
+        "icon": "upload",
+        "title": "Submit Sharing Requests",
+        "description": "Easily upload medical bills and receipts using your phone's camera. Track the status of your submissions in real-time."
+      },
+      {
+        "icon": "video",
+        "title": "Virtual Care Access",
+        "description": "Connect with licensed physicians 24/7 for non-emergency medical consultations, prescriptions, and follow-up care."
+      },
+      {
+        "icon": "file-text",
+        "title": "View Sharing History",
+        "description": "Access your complete sharing history, including submitted expenses, shared amounts, and payment details."
+      },
+      {
+        "icon": "credit-card",
+        "title": "Manage Payments",
+        "description": "View and update your monthly sharing amount, payment methods, and billing preferences. Set up autopay for convenience."
+      },
+      {
+        "icon": "user",
+        "title": "Update Profile",
+        "description": "Keep your personal information, emergency contacts, and medical history up to date with our secure platform."
+      },
+      {
+        "icon": "bell",
+        "title": "Real-time Notifications",
+        "description": "Get instant updates on sharing request status, payment confirmations, and important account information."
+      },
+      {
+        "icon": "map-pin",
+        "title": "Find Providers",
+        "description": "Locate nearby healthcare providers, urgent care centers, and pharmacies with integrated maps and directions."
+      },
+      {
+        "icon": "pill",
+        "title": "Prescription Discounts",
+        "description": "Access exclusive prescription drug discounts and find the lowest prices at pharmacies near you."
+      },
+      {
+        "icon": "calendar",
+        "title": "Appointment Scheduling",
+        "description": "Book virtual care appointments and manage your healthcare calendar directly from the app."
+      }
+    ]
+  },
+  "quickLinks": [
+    {
+      "title": "Member Portal Login",
+      "href": "https://portal.mpbhealth.com/login",
+      "description": "Access your account dashboard and manage your health sharing benefits",
+      "icon": "log-in"
+    },
+    {
+      "title": "Download Mobile App",
+      "href": "https://app.mpbhealth.com/download", 
+      "description": "Get the MPB Health app for iOS and Android devices",
+      "icon": "smartphone"
+    },
+    {
+      "title": "Virtual Care Portal",
+      "href": "https://virtualcare.mpbhealth.com",
+      "description": "Connect with physicians for 24/7 telemedicine consultations",
+      "icon": "video"
+    },
+    {
+      "title": "Submit Sharing Request",
+      "href": "https://portal.mpbhealth.com/submit",
+      "description": "Upload medical bills and receipts for sharing consideration",
+      "icon": "upload"
+    },
+    {
+      "title": "Member Support",
+      "href": "/contact",
+      "description": "Get help with your account, billing, or sharing questions",
+      "icon": "headphones"
+    },
+    {
+      "title": "Educational Resources",
+      "href": "/blog",
+      "description": "Access health and wellness articles, tips, and member resources",
+      "icon": "book-open"
+    }
+  ]
+}

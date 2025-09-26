@@ -1,0 +1,305 @@
+{
+  "hero": {
+    "headline": "Choose the Right Plan for Your Needs",
+    "description": "Compare all six health sharing plans side by side. Each plan includes virtual care access, mental health services, and our member mobile app. Use the calculator below to see personalized rates."
+  },
+  "plans": [
+    {
+      "id": "essentials",
+      "name": "Essentials",
+      "tagline": "Core coverage for essential medical needs",
+      "description": "Perfect for healthy individuals and families who want basic medical expense sharing with access to virtual care and preventive services.",
+      "features": [
+        {
+          "text": "Virtual care access 24/7",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Annual wellness exams",
+          "included": true
+        },
+        {
+          "text": "Emergency room visits",
+          "included": true
+        },
+        {
+          "text": "Urgent care visits",
+          "included": true
+        },
+        {
+          "text": "Prescription drug discounts",
+          "included": true
+        },
+        {
+          "text": "Basic mental health services",
+          "included": true
+        },
+        {
+          "text": "Member mobile app",
+          "included": true
+        },
+        {
+          "text": "Maternity sharing",
+          "included": false
+        },
+        {
+          "text": "Advanced imaging (MRI, CT)",
+          "included": false
+        }
+      ],
+      "popular": false,
+      "hsaEligible": false
+    },
+    {
+      "id": "direct",
+      "name": "Direct", 
+      "tagline": "Balanced coverage with comprehensive benefits",
+      "description": "Our most popular plan offering comprehensive medical expense sharing with enhanced benefits and broader coverage options.",
+      "features": [
+        {
+          "text": "Virtual care access 24/7",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Comprehensive preventive care",
+          "included": true
+        },
+        {
+          "text": "Emergency and urgent care",
+          "included": true
+        },
+        {
+          "text": "Specialist consultations",
+          "included": true
+        },
+        {
+          "text": "Advanced imaging (MRI, CT, PET)",
+          "included": true
+        },
+        {
+          "text": "Prescription drug discounts",
+          "included": true
+        },
+        {
+          "text": "Mental health services",
+          "included": true
+        },
+        {
+          "text": "Maternity sharing available",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Member mobile app",
+          "included": true
+        }
+      ],
+      "popular": true,
+      "hsaEligible": false
+    },
+    {
+      "id": "care-plus",
+      "name": "Care Plus",
+      "tagline": "Enhanced coverage with premium benefits", 
+      "description": "Comprehensive coverage with enhanced sharing amounts and additional wellness benefits for those who want maximum protection.",
+      "features": [
+        {
+          "text": "Virtual care access 24/7",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Enhanced preventive care",
+          "included": true
+        },
+        {
+          "text": "Emergency and urgent care",
+          "included": true
+        },
+        {
+          "text": "Unlimited specialist visits",
+          "included": true
+        },
+        {
+          "text": "Advanced imaging and diagnostics",
+          "included": true
+        },
+        {
+          "text": "Prescription drug coverage",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Comprehensive mental health",
+          "included": true
+        },
+        {
+          "text": "Maternity and newborn care",
+          "included": true
+        },
+        {
+          "text": "Wellness programs and coaching",
+          "included": true
+        }
+      ],
+      "popular": false,
+      "hsaEligible": false
+    },
+    {
+      "id": "secure-hsa",
+      "name": "Secure HSA",
+      "tagline": "HSA-eligible plan with tax advantages",
+      "description": "Designed to pair with Health Savings Accounts (HSA) for maximum tax benefits while providing essential medical expense sharing.",
+      "features": [
+        {
+          "text": "HSA-eligible design",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Virtual care access 24/7",
+          "included": true
+        },
+        {
+          "text": "Preventive care at 100%",
+          "included": true
+        },
+        {
+          "text": "Emergency and urgent care",
+          "included": true
+        },
+        {
+          "text": "Specialist consultations",
+          "included": true
+        },
+        {
+          "text": "Advanced imaging",
+          "included": true
+        },
+        {
+          "text": "Prescription drug discounts",
+          "included": true
+        },
+        {
+          "text": "Basic mental health services",
+          "included": true
+        },
+        {
+          "text": "Tax-advantaged savings",
+          "included": true,
+          "highlight": true
+        }
+      ],
+      "popular": false,
+      "hsaEligible": true
+    },
+    {
+      "id": "premium-care",
+      "name": "Premium Care",
+      "tagline": "Comprehensive coverage with lowest sharing amounts",
+      "description": "Our most comprehensive plan with the lowest Initial Unsharable Amounts and highest sharing percentages for maximum protection.",
+      "features": [
+        {
+          "text": "Virtual care access 24/7",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Comprehensive preventive care",
+          "included": true
+        },
+        {
+          "text": "Emergency and urgent care",
+          "included": true
+        },
+        {
+          "text": "Unlimited specialist visits",
+          "included": true
+        },
+        {
+          "text": "Advanced imaging and diagnostics",
+          "included": true
+        },
+        {
+          "text": "Comprehensive prescription coverage",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Full mental health services",
+          "included": true
+        },
+        {
+          "text": "Maternity and fertility services",
+          "included": true
+        },
+        {
+          "text": "Premium wellness programs",
+          "included": true
+        }
+      ],
+      "popular": false,
+      "hsaEligible": false
+    },
+    {
+      "id": "premium-hsa",
+      "name": "Premium HSA",
+      "tagline": "Premium HSA-eligible plan with comprehensive benefits",
+      "description": "The ultimate combination of comprehensive medical expense sharing and HSA tax benefits for maximum value and protection.",
+      "features": [
+        {
+          "text": "HSA-eligible design",
+          "included": true,
+          "highlight": true
+        },
+        {
+          "text": "Virtual care access 24/7",
+          "included": true
+        },
+        {
+          "text": "Comprehensive preventive care",
+          "included": true
+        },
+        {
+          "text": "Emergency and urgent care", 
+          "included": true
+        },
+        {
+          "text": "Unlimited specialist visits",
+          "included": true
+        },
+        {
+          "text": "Advanced imaging and diagnostics",
+          "included": true
+        },
+        {
+          "text": "Prescription drug coverage",
+          "included": true
+        },
+        {
+          "text": "Mental health services",
+          "included": true
+        },
+        {
+          "text": "Maximum HSA contribution eligible",
+          "included": true,
+          "highlight": true
+        }
+      ],
+      "popular": false,
+      "hsaEligible": true
+    }
+  ],
+  "comparison": {
+    "title": "Not Sure Which Plan is Right for You?",
+    "description": "Use our rate calculator above to compare costs across all plans, or speak with one of our healthcare advisors for personalized recommendations based on your specific needs and budget."
+  },
+  "disclaimers": [
+    "Medical cost sharing is not traditional health insurance and is not regulated by state insurance departments.",
+    "Plans shown are sharing guidelines only. Actual sharing of medical expenses is voluntary and there are no guarantees.",
+    "HSA eligibility requires enrollment in an HSA-qualified plan design. Consult your tax advisor for HSA contribution limits and eligibility.",
+    "Rate estimates are informational only. Final sharing amounts are determined at enrollment and subject to underwriting."
+  ]
+}

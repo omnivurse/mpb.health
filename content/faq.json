@@ -1,0 +1,175 @@
+{
+  "hero": {
+    "headline": "Frequently Asked Questions",
+    "description": "Find answers to common questions about health sharing, eligibility, coverage, and how MPB Health works."
+  },
+  "categories": [
+    {
+      "id": "basics",
+      "title": "Health Sharing Basics",
+      "description": "Understanding the fundamentals of medical cost sharing",
+      "faqs": [
+        {
+          "id": "what-is-health-sharing",
+          "question": "What is medical cost sharing?",
+          "answer": "Medical cost sharing is a healthcare model where members contribute monthly amounts that are used to pay for each other's eligible medical expenses. It's based on the principle of mutual aid, where a community comes together to share healthcare costs. This is not traditional health insurance, but rather a voluntary arrangement between members.",
+          "category": "basics"
+        },
+        {
+          "id": "vs-insurance",
+          "question": "How is health sharing different from traditional insurance?",
+          "answer": "Health sharing is not insurance and is not regulated by state insurance departments. There are no guarantees that medical expenses will be shared, though our community has a strong track record. Unlike insurance, there are typically no provider networks, and you can see any licensed healthcare provider. Health sharing also often costs significantly less than traditional insurance.",
+          "category": "basics"
+        },
+        {
+          "id": "what-is-iua",
+          "question": "What is an Initial Unsharable Amount (IUA)?",
+          "answer": "The IUA is similar to a deductible in traditional insurance. It's the amount you pay out-of-pocket before the community begins sharing your medical expenses. Different plans have different IUA amounts, ranging from $1,000 to $10,000 annually depending on the plan you choose.",
+          "category": "basics"
+        },
+        {
+          "id": "how-sharing-works",
+          "question": "How does the sharing process work?",
+          "answer": "When you have eligible medical expenses, you submit them through our online portal or mobile app. The expenses are reviewed according to the sharing guidelines, and if eligible, they are shared by the community. Payments are typically sent directly to healthcare providers, and you receive updates throughout the process.",
+          "category": "basics"
+        }
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Eligibility & Enrollment",
+      "description": "Who can join and how to get started",
+      "faqs": [
+        {
+          "id": "who-eligible",
+          "question": "Who is eligible for health sharing?",
+          "answer": "Generally, anyone can apply for health sharing. Most plans have basic lifestyle requirements and may include health questions on the application. Some plans may have waiting periods for pre-existing conditions before they become eligible for sharing.",
+          "category": "eligibility"
+        },
+        {
+          "id": "pre-existing-conditions",
+          "question": "Are pre-existing conditions covered?",
+          "answer": "Pre-existing conditions may have waiting periods before they become eligible for sharing, typically ranging from 12-36 months depending on the condition and plan. Acute or emergency treatments related to pre-existing conditions are often eligible for sharing immediately.",
+          "category": "eligibility"
+        },
+        {
+          "id": "enrollment-process",
+          "question": "How long does enrollment take?",
+          "answer": "The enrollment process typically takes 1-2 weeks from the time you submit a complete application. You'll need to provide basic health information and may need to complete a health questionnaire depending on the plan you choose.",
+          "category": "eligibility"
+        },
+        {
+          "id": "family-coverage",
+          "question": "Can I cover my family?",
+          "answer": "Yes, health sharing plans typically cover families including spouses and dependent children. Family rates are available and often provide significant savings compared to covering each family member individually.",
+          "category": "eligibility"
+        }
+      ]
+    },
+    {
+      "id": "coverage",
+      "title": "Coverage & Benefits",
+      "description": "What's covered and how to access care",
+      "faqs": [
+        {
+          "id": "doctor-choice",
+          "question": "Can I keep my current doctor?",
+          "answer": "Yes! Health sharing plans typically don't have provider networks, so you can see any licensed healthcare provider anywhere in the United States. You have complete freedom to choose your doctors, specialists, and hospitals.",
+          "category": "coverage"
+        },
+        {
+          "id": "preventive-care",
+          "question": "Is preventive care covered?",
+          "answer": "Yes, most health sharing plans include preventive care benefits such as annual wellness exams, screenings, and immunizations. Many plans share preventive care at 100% with no IUA applied.",
+          "category": "coverage"
+        },
+        {
+          "id": "emergency-care",
+          "question": "What about emergency care?",
+          "answer": "Emergency care is typically eligible for sharing under all plans. You can go to any emergency room without prior authorization. Emergency care often has reduced IUA amounts or may be shared at higher percentages.",
+          "category": "coverage"
+        },
+        {
+          "id": "virtual-care",
+          "question": "Do you offer virtual care?",
+          "answer": "Yes, all of our plans include 24/7 access to virtual care consultations with licensed physicians. This service is included at no additional cost and covers non-emergency medical issues, prescriptions, and follow-up care.",
+          "category": "coverage"
+        },
+        {
+          "id": "mental-health",
+          "question": "Is mental health care covered?",
+          "answer": "Yes, mental health services are included in our health sharing plans. This includes counseling, therapy sessions, and psychiatric care. Some plans offer more comprehensive mental health benefits than others.",
+          "category": "coverage"
+        },
+        {
+          "id": "maternity-care",
+          "question": "Is maternity care covered?",
+          "answer": "Maternity care is available on select plans. Coverage typically includes prenatal care, delivery, and newborn care. There may be waiting periods for maternity benefits, so it's important to enroll before conception if you're planning to have children.",
+          "category": "coverage"
+        }
+      ]
+    },
+    {
+      "id": "employers",
+      "title": "Employer & Group Plans",
+      "description": "Information for employers and group administrators",
+      "faqs": [
+        {
+          "id": "group-plans",
+          "question": "Do you offer group plans for employers?",
+          "answer": "Yes, we offer group health sharing plans for employers and organizations. These plans can provide significant cost savings compared to traditional group insurance while offering comprehensive benefits to employees.",
+          "category": "employers"
+        },
+        {
+          "id": "aca-compliance",
+          "question": "Are group plans ACA compliant?",
+          "answer": "Health sharing plans can be paired with Minimum Essential Coverage (MEC) plans for applicable large employers (50+ full-time employees) to help meet ACA requirements. We work with employers to design compliant benefit solutions.",
+          "category": "employers"
+        },
+        {
+          "id": "contractor-coverage",
+          "question": "Can 1099 contractors participate?",
+          "answer": "Yes, independent contractors can participate in health sharing plans. This provides contractors with access to affordable healthcare benefits without creating employment classification concerns for the hiring organization.",
+          "category": "employers"
+        },
+        {
+          "id": "minimum-participation",
+          "question": "Is there a minimum participation requirement?",
+          "answer": "Group health sharing plans typically have more flexible participation requirements than traditional insurance. Specific requirements vary by plan and group size. Contact our group specialists for detailed information.",
+          "category": "employers"
+        }
+      ]
+    },
+    {
+      "id": "billing",
+      "title": "Billing & Payments",
+      "description": "Understanding costs, payments, and billing",
+      "faqs": [
+        {
+          "id": "monthly-costs",
+          "question": "How much do monthly sharing amounts cost?",
+          "answer": "Monthly sharing amounts vary by plan, age, location, and tobacco status. Use our rate calculator to get personalized pricing. Generally, sharing amounts are 40-60% less than traditional insurance premiums.",
+          "category": "billing"
+        },
+        {
+          "id": "payment-methods",
+          "question": "What payment methods do you accept?",
+          "answer": "We accept automatic bank transfers (ACH), credit cards, and debit cards for monthly sharing amounts. Automatic payments ensure you never miss a payment and help maintain continuous sharing eligibility.",
+          "category": "billing"
+        },
+        {
+          "id": "billing-changes",
+          "question": "Can I change my payment method?",
+          "answer": "Yes, you can update your payment method anytime through the member portal or by contacting customer service. Changes typically take effect with your next billing cycle.",
+          "category": "billing"
+        },
+        {
+          "id": "missed-payment",
+          "question": "What happens if I miss a payment?",
+          "answer": "If you miss a monthly payment, your sharing eligibility may be suspended until payment is received. We provide grace periods and will work with you to resolve any payment issues. It's important to maintain continuous payments to ensure sharing eligibility.",
+          "category": "billing"
+        }
+      ]
+    }
+  ]
+}

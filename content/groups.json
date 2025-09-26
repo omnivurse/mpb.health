@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "headline": "Group Health Sharing for Employers & Contractors",
+    "subheadline": "Affordable healthcare solutions for your team",
+    "description": "Provide comprehensive healthcare benefits to your employees or contractors without the high costs and complexity of traditional group insurance. ACA-compatible options available.",
+    "ctas": [
+      {
+        "text": "Get Group Quote",
+        "href": "/quote?type=group",
+        "variant": "primary",
+        "size": "lg"
+      },
+      {
+        "text": "Speak with Advisor",
+        "href": "/contact",
+        "variant": "outline",
+        "size": "lg"
+      }
+    ]
+  },
+  "employerFocus": {
+    "title": "Smart Healthcare Benefits for Employers",
+    "description": "Attract and retain top talent with affordable health sharing benefits that cost significantly less than traditional group insurance while providing comprehensive coverage.",
+    "benefits": [
+      {
+        "icon": "trending-down",
+        "title": "Reduce Benefits Costs",
+        "description": "Save 40-60% on healthcare benefits compared to traditional group insurance premiums while maintaining quality coverage for your team."
+      },
+      {
+        "icon": "users",
+        "title": "Flexible Enrollment",
+        "description": "No minimum participation requirements or complex enrollment processes. Employees can join throughout the year with simplified applications."
+      },
+      {
+        "icon": "file-text",
+        "title": "List-Bill Convenience",
+        "description": "Streamlined billing process with single monthly invoices. We handle all the administrative work so you can focus on your business."
+      },
+      {
+        "icon": "shield-check",
+        "title": "ACA Compliance Options",
+        "description": "Pair with Minimum Essential Coverage (MEC) plans where applicable to meet ACA employer mandate requirements."
+      },
+      {
+        "icon": "clock",
+        "title": "Quick Implementation",
+        "description": "Get your group program up and running in just a few weeks with our streamlined implementation process."
+      },
+      {
+        "icon": "headphones",
+        "title": "Dedicated Support",
+        "description": "Assigned account manager and dedicated customer service for your employees with priority support channels."
+      }
+    ]
+  },
+  "contractorFocus": {
+    "title": "Healthcare Solutions for 1099 Contractors",
+    "description": "Help your independent contractors access affordable healthcare without the complexity of traditional benefits administration.",
+    "benefits": [
+      {
+        "icon": "briefcase",
+        "title": "Contractor-Friendly Benefits",
+        "description": "Provide access to healthcare benefits for 1099 contractors without employment classification concerns or complex administration."
+      },
+      {
+        "icon": "dollar-sign",
+        "title": "Cost-Effective Solution",
+        "description": "Significantly lower costs than COBRA or individual insurance, making it an attractive benefit for contractors."
+      },
+      {
+        "icon": "map",
+        "title": "Nationwide Coverage",
+        "description": "Contractors can access care anywhere in the US without network restrictions, perfect for remote or traveling workers."
+      },
+      {
+        "icon": "smartphone",
+        "title": "Self-Service Platform",
+        "description": "Contractors manage their own enrollment, payments, and claims through our intuitive online platform and mobile app."
+      },
+      {
+        "icon": "calendar",
+        "title": "Flexible Terms",
+        "description": "Month-to-month participation with no long-term commitments, allowing contractors to join or leave as needed."
+      },
+      {
+        "icon": "award",
+        "title": "Competitive Advantage",
+        "description": "Attract better contractors by offering this valuable benefit that sets you apart from competitors."
+      }
+    ]
+  },
+  "acaCompliance": {
+    "title": "ACA Compliance Made Simple",
+    "description": "For applicable large employers (50+ full-time employees), we offer solutions to help meet ACA requirements while keeping costs manageable.",
+    "pairings": [
+      "Health sharing plans paired with Minimum Essential Coverage (MEC)",
+      "Comprehensive reporting and documentation support",
+      "Affordable Care Act compliance consulting",
+      "Employee education and communication materials",
+      "Seamless integration with existing benefits platforms"
+    ]
+  },
+  "advisorCTA": {
+    "title": "Ready to Transform Your Employee Benefits?",
+    "description": "Our benefits advisors specialize in helping employers design cost-effective healthcare solutions. Get a custom proposal tailored to your organization's needs.",
+    "cta": {
+      "text": "Schedule Consultation",
+      "href": "/contact?type=employer",
+      "variant": "primary",
+      "size": "lg"
+    }
+  }
+}

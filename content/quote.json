@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "headline": "Get Your Free Health Sharing Quote",
+    "subheadline": "See how much you can save in under 2 minutes",
+    "description": "Compare all six of our health sharing plans instantly. No personal information required to see rates. Get accurate pricing based on your age, location, and tobacco status."
+  },
+  "calculator": {
+    "title": "Calculate Your Monthly Sharing Amount",
+    "description": "Select your preferences below to see personalized rates for all available plans. All estimates include access to virtual care, mental health services, and our member mobile app.",
+    "disclaimer": "Rates shown are estimates only. Final sharing amounts are determined at enrollment and subject to underwriting and member guidelines. Not traditional health insurance."
+  },
+  "reassurance": {
+    "title": "Why Choose Health Sharing?",
+    "points": [
+      {
+        "icon": "shield-check",
+        "text": "Trusted by over 100,000 members nationwide with a proven track record of sharing medical expenses"
+      },
+      {
+        "icon": "dollar-sign", 
+        "text": "Average savings of 40-60% compared to traditional health insurance premiums"
+      },
+      {
+        "icon": "users",
+        "text": "Choose any doctor or hospital - no network restrictions or referral requirements"
+      },
+      {
+        "icon": "clock",
+        "text": "Fast enrollment process - typically covered within 1-2 weeks of application approval"
+      },
+      {
+        "icon": "smartphone",
+        "text": "24/7 access to virtual care and our award-winning mobile app for managing your account"
+      },
+      {
+        "icon": "heart",
+        "text": "Join a caring community committed to supporting each other's health and wellness"
+      }
+    ]
+  },
+  "form": {
+    "title": "Ready to Get Started?",
+    "description": "Fill out this quick form to receive personalized plan recommendations and speak with one of our healthcare advisors. No obligation and your information is completely secure.",
+    "cta": {
+      "text": "Get My Personalized Quote",
+      "href": "#quote-form",
+      "variant": "primary",
+      "size": "lg"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "headline": "Contact MPB Health",
+    "description": "Have questions about health sharing or need help with your account? Our team is here to help. Reach out to us using any of the methods below."
+  },
+  "contactInfo": {
+    "address": {
+      "street": "123 Healthcare Way, Suite 200",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701"
+    },
+    "phone": "(855) 662-4325",
+    "email": "support@mpbhealth.com",
+    "hours": "Monday - Friday: 8:00 AM - 6:00 PM CT"
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "description": "Fill out the form below and we'll get back to you within one business day. For urgent member support needs, please call us directly.",
+    "cta": {
+      "text": "Send Message",
+      "href": "#contact-form",
+      "variant": "primary",
+      "size": "lg"
+    }
+  },
+  "links": [
+    {
+      "title": "Member Portal Support",
+      "href": "https://portal.mpbhealth.com/support",
+      "description": "Get help with your member account, sharing requests, or portal access"
+    },
+    {
+      "title": "Virtual Care Support", 
+      "href": "https://virtualcare.mpbhealth.com/help",
+      "description": "Technical support for virtual care appointments and consultations"
+    },
+    {
+      "title": "Billing Questions",
+      "href": "mailto:billing@mpbhealth.com",
+      "description": "Questions about monthly sharing amounts, payments, or billing"
+    },
+    {
+      "title": "New Member Enrollment",
+      "href": "mailto:enrollment@mpbhealth.com", 
+      "description": "Get help with applications, plan selection, or enrollment process"
+    },
+    {
+      "title": "Group Plans & Employers",
+      "href": "mailto:groups@mpbhealth.com",
+      "description": "Information about group health sharing plans for employers"
+    },
+    {
+      "title": "Partnership Opportunities",
+      "href": "mailto:partnerships@mpbhealth.com",
+      "description": "Explore partnership opportunities with MPB Health"
+    }
+  ]
+}
